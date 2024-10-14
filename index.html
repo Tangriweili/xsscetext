@@ -1,21 +1,8 @@
 <!doctype html>
 <html manifest="/cache.manifest">
 <head>
-  <meta charset="utf-8">
-  <script>
-    (function(){
-      var host =location.host
-      var domain ='xss.haozi.me'
-      if (/127/.test(host) || host === domain) return
-      location.replace('https://' + domain)
-    })()
-  </script>
-  <title>alert(1)</title>
-  <style>
-    .i-loading {
-      font-size: 12px;
-    }
-  </style>
+    <meta charset="utf-8">
+    <title>alert(1)</title>
 </head>
 <body>
-<div class="i-loading">服务部署在 Github，首次加载可能很慢，请耐心等待...</div>
+    <div style="font-size: 12px">服务部署在 Github，首次加载可能很慢，请耐心等待...</div>
